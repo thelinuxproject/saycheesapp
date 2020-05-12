@@ -1,5 +1,5 @@
 #!/bin/bash
-# SayCheese v1.1
+# SayCheese v1.1.1
 # coded by: github.com/thelinuxproject/saycheesapp
 
 trap 'printf "\n";stop' 2
