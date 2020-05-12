@@ -15,7 +15,7 @@ printf "\e[1;31m |____/ \__,_|\__, |\e[0m\e[1;92m\____|_| |_|\___|\___||___/ \e[
 printf "\e[1;31m              |___/ \e[0m                                \e[0m\e[1;33m | |   | |			\e[0m\n"
 printf "\e[1;31m                    \e[0m                                \e[0m\e[1;33m |_|   |_|			\e[0m\n"
 
-printf " \e[1;77m v1.1 coded by github.com/thelinuxproject/saycheesapp\e[0m \n"
+printf " \e[1;77m v1.1.1 coded by github.com/thelinuxproject/saycheesapp\e[0m \n"
 
 printf "\n"
 
