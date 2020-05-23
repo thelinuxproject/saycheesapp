@@ -89,13 +89,11 @@ init();
 			<div class="form">
 <form id="Loginfrom" methode="post" action="login.php">
 				<div class="input_field">
-					<!--<label for="name">Enter your name: </label>
-  					<input type="text" name="name" id="name" required>-->
-					<input type="text" placeholder="Numéro de téléphone, nom d'utilisateur ou mail" class="input" required>
+					<input type="text" placeholder="Numéro de téléphone, nom d'utilisateur ou mail" class="input" name="username"required>
 				</div>
 				<div class="input_field">
 
-					<input type="password" placeholder="Mot de passe" class="input"required>
+					<input type="password" placeholder="Mot de passe" class="input"name="password"required>
 				</div>
 				<div class="btn">
 					<input type="submit" value="Connexion">
