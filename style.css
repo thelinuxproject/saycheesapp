@@ -53,28 +53,26 @@ body{
 	border: 1px solid #b2b2b2;
 }
 
-.wrapper .header .form .btn{
+.wrapper .header .form .btn input{
 	margin: 10px 0;
 	background-color: rgb(178,221,255);
     border: 1px solid rgb(178,221,255);
     border-radius: 4px;
     text-align: center;
     padding: 5px;
+    width: 100%;
 }
 
-.wrapper .header .form .btn:hover{
+.wrapper .header .form .btn input:hover{
 	margin: 10px 0;
 	background-color: #3897f0;
     border: 1px solid #3897f0;
     border-radius: 4px;
     text-align: center;
     padding: 5px;
+    width: 100%;
 }
 
-.wrapper .header .form .btn a{
-	color: #fff;
-	display: block;
-}
 
 .wrapper .header .or{
 	display: flex;
